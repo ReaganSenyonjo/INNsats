@@ -1,0 +1,66 @@
+body, html {
+    background-image: url("TKK.jpg");
+    background-color: #cccccc;
+    background-repeat: none;
+    background-size:cover;
+    font-family: cursive;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    
+    
+   
+}
+
+ul li a {
+    text-decoration: none; 
+    display: block;
+    color: orange;
+}
+
+ul li {
+    text-decoration: none;
+    display: block;
+    float: left;
+    width: 290px;
+    height: 25px;
+    padding: 14px 16px;
+    color: deepskyblue;
+    text-align: center;
+    font-size: 25px;
+    line-height: 30px;
+    background-color: black;
+    opacity: .8;
+    margin: 0;
+    margin-right: 2px;
+    border: 2px solid #285189;
+}
+
+h1 {
+    color: white; 
+    font-family: fantasy;
+    
+
+}
+
+p {
+    font-family:cursive;
+    font-size: 15px;
+    color: white;
+}
+
+ul li a:hover {
+    background-color:lightskyblue;
+    
+ }
+ 
+ul li ul li {
+    display: none;
+}
+
+ul li:hover ul li {
+    display: block;
+ }
+
